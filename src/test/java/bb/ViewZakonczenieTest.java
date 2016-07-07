@@ -10,7 +10,7 @@ import org.junit.Test;
 
 import junit.framework.Assert;
 
-public class VievStart2Test {
+public class ViewZakonczenieTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -28,11 +28,11 @@ public class VievStart2Test {
 	public void tearDown() throws Exception {
 	}
 
-
-public void testGetInscription() {
-	VievStart2 SV = new VievStart2();
-	String ch = SV.GetInscription();
-	Assert.assertEquals(ch,"Imlementacja fabryki");
+	@Test
+	public void testGetInscription() {
+		ViewZakonczenie SV = new ViewZakonczenie();
+		String tt = SV.GetInscription();
+		Assert.assertEquals(tt,"Koniec programu. Przedstawienie wzorca adapter is done.");
 	}
 
 }

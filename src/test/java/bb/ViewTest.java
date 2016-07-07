@@ -28,13 +28,12 @@ public class ViewTest {
 	public void tearDown() throws Exception {
 	}
 
-/*	@Test
+	@Test
 	public void testGetSizeY() {
 		View SV = new View();
 		int y = SV.getSizeY();
 		Assert.assertEquals(y,30*20);
 	}
-
 	@Test
 	public void testGetSizeX() {
 		View SV = new View();
@@ -55,5 +54,5 @@ public void testGetw() {
 		int w = SV.getw();
 	Assert.assertEquals(w,0);
 	}
-*/
+
 }
